@@ -19,4 +19,9 @@ Be aware that the raw data, due to their sizes, are not hosted on GitHub. They a
 
 #### Methodology
 Basic framework of the methods are as follows:
-(1) 
+(1) Connect to NREL server
+(2) Inspect the files (.h5) in the server
+(3) Open the files from the server (using h5pyd package)
+(4) Inspect metadata and attributes (specifically the scale factor)
+(5) Pull the wind speed data (160 m) for each year (2001 - 2020) and divide by the scale factor (i.e., 100)
+(6) 
