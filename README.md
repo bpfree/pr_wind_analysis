@@ -1,5 +1,5 @@
 # Puerto Rico
-This GitHub repository hosts recreated wind speed data (160 meters) for Puerto Rico. Associated code obtains wind data for Puerto Rico from NREL's [Wind Integration National Dataset (WIND) Toolkit](https://www.nrel.gov/grid/wind-toolkit.html) to recreate the 20-year mean wind speed dataset contained in the [Puerto Rico 100 report](https://www.nrel.gov/docs/fy24osti/88615.pdf). For more information about the PR100 study, this the official [website](https://pr100.gov/).
+This GitHub repository hosts recreated wind speed data (160 meters) for Puerto Rico. Associated code obtains wind data for Puerto Rico from NREL's [Wind Integration National Dataset (WIND) Toolkit](https://www.nrel.gov/grid/wind-toolkit.html) to recreate the 20-year mean wind speed dataset contained in the [Puerto Rico 100 report](https://www.nrel.gov/docs/fy24osti/88615.pdf) (see Figure 10 on page 12 [page 23 of the PDF]). For more information about the PR100 study, this is the official [website](https://pr100.gov/).
 
 #### Good resources for how to obtain and manipulate the NSRDB data are contained in NREL's [Github repository](https://github.com/NREL/hsds-examples) for HSDS:
 * [Notebook examples](https://github.com/NREL/hsds-examples/tree/master/notebooks)
@@ -8,7 +8,7 @@ This GitHub repository hosts recreated wind speed data (160 meters) for Puerto R
 
 #### For information regarding the hy5pyd package, this is the [Github repository](https://github.com/HDFGroup/h5pyd)
 
-#### Data
+### Data
 * NREL hosts wind data for Puerto Rico within its Wind Toolkit ([website](https://www.nrel.gov/grid/wind-toolkit.html), [GitHub](https://github.com/NREL/hsds-examples/blob/master/datasets/WINDToolkit.md)). These data exist at 5 minute increments across a year between 2001 and 2020.
 
 #### Access
@@ -25,7 +25,7 @@ Familarize with how to inspect the attributes that NREL details for its data for
 
 Coordinates data for each year are downloaded, despite that the coordinates remain the same for each site every year.
 
-#### Methodology
+### Methodology
 Basic framework of the methods are as follows:
 1. Connect to NREL server
 2. Inspect the files (.h5) in the server
